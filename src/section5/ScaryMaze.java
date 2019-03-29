@@ -64,7 +64,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		//9. Find a scary sound and put it in the section5 package where you put your maze picture. You can find a sound on freesound.org. Log in as leagueofamazing/code4life.
 		
 		//10. Use the code below to load your sound.  Change the file name to match the name of your sound file.  
-		AudioClip sound = JApplet.newAudioClip(getClass().getResource("T.wav"));
+		AudioClip sound = JApplet.newAudioClip(getClass().getResource("OOF.wav"));
 		
 		//11. Play the scary sound. Hint: type "sound" and then a period.		
 		sound.play();
